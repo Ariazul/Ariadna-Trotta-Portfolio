@@ -12,6 +12,7 @@ import { WorksectionComponent } from './components/worksection/worksection.compo
 import { WorkmusicComponent } from './components/workmusic/workmusic.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactsectionComponent } from './components/contactsection/contactsection.component';
+import { Skillssection2Component } from './components/skillssection2/skillssection2.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ContactsectionComponent } from './components/contactsection/contactsect
     WorkmusicComponent,
     FooterComponent,
     ContactsectionComponent,
+    Skillssection2Component,
   ],
   imports: [
     BrowserModule
