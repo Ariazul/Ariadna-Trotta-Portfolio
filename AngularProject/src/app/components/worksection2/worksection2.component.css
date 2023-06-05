@@ -1,0 +1,6 @@
+header {
+	padding-bottom: 3%;
+	color: #A2B1F2;
+	letter-spacing: 0.1em;
+	font-size: clamp(20px, 4vw, 40px);
+}

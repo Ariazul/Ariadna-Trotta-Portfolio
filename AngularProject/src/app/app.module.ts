@@ -14,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactsectionComponent } from './components/contactsection/contactsection.component';
 import { Skillssection2Component } from './components/skillssection2/skillssection2.component';
 import { HoverComponent } from './components/hover/hover.component';
+import { MusicplayerComponent } from './components/musicplayer/musicplayer.component';
+import { Worksection2Component } from './components/worksection2/worksection2.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { HoverComponent } from './components/hover/hover.component';
     ContactsectionComponent,
     Skillssection2Component,
     HoverComponent,
+    MusicplayerComponent,
+    Worksection2Component,
   ],
   imports: [
     BrowserModule
