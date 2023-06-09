@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CargarScriptsService } from 'src/app/cargar-scripts.service';
 
 @Component({
   selector: 'app-musicplayer',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./musicplayer.component.css']
 })
 export class MusicplayerComponent {
+  
+  constructor(private _CargaSccript:CargarScriptsService){
+    _CargaSccript.Carga(["musicplayer"]);
+  }
 
 }
