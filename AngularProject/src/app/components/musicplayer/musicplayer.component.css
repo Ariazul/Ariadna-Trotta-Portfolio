@@ -11,6 +11,12 @@
 }
 
 
+.descripción {
+    background-color:aliceblue;
+    opacity: 50%;
+    border-radius: 10px;
+}
+
 .musicplayer {
     background-image: url(./../../../../media/images/Vinil01.png);
     width: 400px;

@@ -10,6 +10,7 @@ export class MusicplayerComponent {
   
   constructor(private _CargaSccript:CargarScriptsService){
     _CargaSccript.Carga(["musicplayer"]);
+    _CargaSccript.Carga(["iconos"]);
   }
 
 }
