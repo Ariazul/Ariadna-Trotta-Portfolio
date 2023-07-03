@@ -16,6 +16,11 @@ import { Skillssection2Component } from './components/skillssection2/skillssecti
 import { HoverComponent } from './components/hover/hover.component';
 import { MusicplayerComponent } from './components/musicplayer/musicplayer.component';
 import { Worksection2Component } from './components/worksection2/worksection2.component';
+import { Musicplayer2Component } from './components/musicplayer2/musicplayer2.component';
+import { Musicplayer3Component } from './components/musicplayer3/musicplayer3.component';
+import { Musicplayer4Component } from './components/musicplayer4/musicplayer4.component';
+import { Musicplayer5Component } from './components/musicplayer5/musicplayer5.component';
+import { Musicplayer6Component } from './components/musicplayer6/musicplayer6.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,11 @@ import { Worksection2Component } from './components/worksection2/worksection2.co
     HoverComponent,
     MusicplayerComponent,
     Worksection2Component,
+    Musicplayer2Component,
+    Musicplayer3Component,
+    Musicplayer4Component,
+    Musicplayer5Component,
+    Musicplayer6Component,
   ],
   imports: [
     BrowserModule
