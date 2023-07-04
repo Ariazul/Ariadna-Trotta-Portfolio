@@ -7,10 +7,14 @@ header {
 
 section {
     color: whitesmoke;
+    margin-right: 10%;
+    margin-left: 8.5%;
 }
 
 p {
-    font-size: clamp(10px, 2vw, 20px);
+    font-size: 125%;
+    size: 200%;
+    letter-spacing: 0.1em;
 }
 
 .row{
