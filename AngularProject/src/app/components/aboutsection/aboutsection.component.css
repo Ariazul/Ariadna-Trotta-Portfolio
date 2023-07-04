@@ -1,4 +1,13 @@
 p {
     padding-top: 1%;
-    padding-bottom: 25%;
+    justify-content: left right;
+    text-align: left;
+    justify-content: start end;
+    padding-right: 30%;
+    color: #dfd4b3;
+    font-size: clamp(20px, 4px, 40px);
+}
+
+.link {
+    padding-bottom: 10%;
 }

@@ -1,12 +1,14 @@
 section {
     margin-bottom: 10%;
+    padding-top: 15%;
 }
 
-h1 {
+h1, h2 {
     justify-content: center;
     text-align: center;
     letter-spacing: 0.2em;
     font-size: clamp(20px, 4vw, 40px);
+    color: whitesmoke;
 }
 
 h2 {  justify-content: center;
@@ -33,3 +35,4 @@ p {
     font-size: clamp(8px, 1.6vw, 16px);
     color: whitesmoke;
 }
+

@@ -6,12 +6,11 @@ header {
 }
 
 section {
-    padding-bottom: 10%;
     color: whitesmoke;
 }
 
 p {
-    font-size: medium;
+    font-size: clamp(10px, 2vw, 20px);
 }
 
 .row{

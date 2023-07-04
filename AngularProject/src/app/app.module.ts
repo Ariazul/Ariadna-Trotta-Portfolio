@@ -21,6 +21,7 @@ import { Musicplayer3Component } from './components/musicplayer3/musicplayer3.co
 import { Musicplayer4Component } from './components/musicplayer4/musicplayer4.component';
 import { Musicplayer5Component } from './components/musicplayer5/musicplayer5.component';
 import { Musicplayer6Component } from './components/musicplayer6/musicplayer6.component';
+import { RedesComponent } from './components/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { Musicplayer6Component } from './components/musicplayer6/musicplayer6.co
     Musicplayer4Component,
     Musicplayer5Component,
     Musicplayer6Component,
+    RedesComponent,
   ],
   imports: [
     BrowserModule

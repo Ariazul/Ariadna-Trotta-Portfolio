@@ -6,6 +6,8 @@ header {
     text-align: center;
 }
 
+
+
 h3 {
 	font-size: clamp (30px, 1.2px, 12px);
 	color: whitesmoke;
@@ -13,4 +15,25 @@ h3 {
 	padding-top: 5%;
 	justify-content: center;
     text-align: center;
+}
+
+.video { 
+	justify-content: center;
+	text-align: center;
+	padding: 0%;
+	display: flex;
+	position: relative;
+	object-fit: fill;
+}
+
+p {
+	justify-content: center;
+	text-align: center;
+	justify-content: end;
+	color: #dfd4b3;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 1%;
+	font-size: clamp(20px, 4px, 40px);
 }
