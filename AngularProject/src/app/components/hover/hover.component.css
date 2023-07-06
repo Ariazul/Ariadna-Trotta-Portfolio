@@ -1,11 +1,5 @@
-html,body,span,applet,object,iframe,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+html,body,h1,h3,h4,h5,h6,p,img,section{
   margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline
-}
-hgroup{
-  display:block
-}
-body{
-  line-height:1
 }
 ol,ul{
   list-style:none
@@ -19,34 +13,23 @@ blockquote:before,blockquote:after,q:before,q:after{
 table{
   border-collapse:collapse;border-spacing:0
 }
-
-
 body {
   background: #0B0D17;
   padding-top: 5%;
   padding-bottom: 5%;
+  line-height:1;
 }
-
-
 header {
 	padding-bottom: 3%;
 	color: #A2B1F2;
 	letter-spacing: 0.1em;
 	font-size: clamp(20px, 4vw, 40px);
 }
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
-
 }
-
-
 h4 {
 	color: rgb(255, 255, 255);
 	letter-spacing: 0.2em;
@@ -54,22 +37,10 @@ h4 {
 	padding-top: 3%;
   font-weight: ;
 }
-
-
 * {
   box-sizing: border-box;
   list-style: none;
 }
-
-html, body {
-  height: 100%;
-}
-
-body {
-  display: grid;
-  place-items: center;
-}
-
 .page-content {
   display: grid;
   grid-gap: 1rem;
@@ -88,7 +59,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
 .card {
   position: relative;
   display: flex;
@@ -132,7 +102,7 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url("./../../../assets/images/audio.png");
+  background-image: url("./../../../assets/images/audio.jpg");
 }
 .card:nth-child(2):before {
   background-image: url("./../../../assets/images/gameaudio.jpg");
@@ -143,7 +113,6 @@ body {
 .card:nth-child(4):before {
   background-image: url("./../../../assets/images/idiomas.jpg"); 
 }
-
 .content {
   position: relative;
   display: flex;
@@ -157,20 +126,17 @@ body {
 .content > * + * {
   margin-top: 1rem;
 }
-
 .title {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.5;
 }
-
 .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.35;
 }
-
 .btn {
   cursor: pointer;
   margin-top: 1.5rem;
@@ -190,12 +156,10 @@ body {
   outline: 1px dashed yellow;
   outline-offset: 3px;
 }
-
 @media (hover: hover) and (min-width: 600px) {
   .card:after {
     transform: translateY(0);
   }
-
   .content {
     transform: translateY(calc(100% - 4.5rem));
   }
@@ -204,7 +168,6 @@ body {
     transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
-
   .card:hover,
 .card:focus-within {
     align-items: center;
@@ -227,7 +190,6 @@ body {
     transform: translateY(0);
     transition-delay: calc(var(--d) / 8);
   }
-
   .card:focus-within:before, .card:focus-within:after,
 .card:focus-within .content,
 .card:focus-within .content > *:not(.title) {
