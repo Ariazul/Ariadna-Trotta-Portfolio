@@ -1,6 +1,7 @@
 a {
     outline: none;
     text-decoration: none;
+    
   }
   
   a:link {
@@ -39,4 +40,14 @@ a {
   line-height: var(--fz-lg);
   letter-spacing: 0.2em;
   writing-mode: vertical-rl;
+  }
+
+  .leftside {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .leftside {
+      display: none;
+    }
   }

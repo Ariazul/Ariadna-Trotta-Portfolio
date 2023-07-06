@@ -6,26 +6,25 @@ header {
     text-align: center;
 }
 
-
+section {
+	padding-bottom: 8%;
+}
 
 h3 {
 	font-size: clamp (30px, 1.2px, 12px);
 	color: whitesmoke;
-	padding-bottom: 2%;
-	padding-top: 5%;
+	padding-bottom: 0%;
+	padding-top: 1%;
 	justify-content: center;
     text-align: center;
 }
 
 
 p {
-	justify-content: center;
-	text-align: center;
-	justify-content: end;
 	color: #dfd4b3;
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-bottom: 5%;
+	padding-bottom: 0%;
 	padding-top: 1%;
 	font-size: clamp(20px, 4px, 40px);
 }
@@ -36,8 +35,27 @@ p {
 	
 }
 
+h4 {
+	font-size: clamp (30px, 1.2px, 12px);
+	color: whitesmoke;
+	padding-bottom: 1%;
+	padding-top: 3%;
+	justify-content: center;
+    text-align: center;
+}
+
+.visor {
+	background-color: #000000;
+}
+
+.video {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
 video {
-	width: 98%;
+	width: 80%;
 }
 
 .controls {
@@ -51,3 +69,8 @@ section {
 }
 
 */
+
+.iframe {
+	justify-content: center;
+	text-align: center;
+}

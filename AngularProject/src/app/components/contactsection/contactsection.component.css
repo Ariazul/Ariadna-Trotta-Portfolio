@@ -1,6 +1,6 @@
 section {
-    margin-bottom: 10%;
-    padding-top: 15%;
+    margin-bottom: 8%;
+    padding-top: 0%;
 }
 
 h1, h2 {
@@ -23,7 +23,7 @@ a {
 }
 
 button {
-    background-color: black;
+    background-color: #D4BD79;
     border: 2px solid whitesmoke;
     padding: 1%;
     margin: 3%;
@@ -31,8 +31,12 @@ button {
 }
 
 p {
-    letter-spacing: 0.1em;
-    font-size: clamp(8px, 1.6vw, 16px);
-    color: whitesmoke;
+    letter-spacing: 0.2em;
+    font-size:larger;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 1000;
 }
 

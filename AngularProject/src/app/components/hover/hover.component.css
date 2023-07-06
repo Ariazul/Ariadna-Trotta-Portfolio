@@ -132,16 +132,16 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url("\media\images\Wave.jpg");
+  background-image: url("./../../../assets/images/audio.png");
 }
 .card:nth-child(2):before {
-  background-image: url("\media\images\gameaudio.png");
+  background-image: url("./../../../assets/images/gameaudio.jpg");
 }
 .card:nth-child(3):before {
-  background-color: #161927d3;
+  background-image: url("./../../../assets/images/prog.jpg");
 }
 .card:nth-child(4):before {
-  background-color: rgba(48, 37, 23, 0.418);
+  background-image: url("./../../../assets/images/idiomas.jpg"); 
 }
 
 .content {
