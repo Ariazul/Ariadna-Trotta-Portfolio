@@ -9,34 +9,56 @@ h1, h2 {
     letter-spacing: 0.2em;
     font-size: clamp(20px, 4vw, 40px);
     color: whitesmoke;
+    font-weight: 600;
 }
 
 h2 {  justify-content: center;
     text-align: center;
     letter-spacing: 0.2em;
     font-size: clamp(15px, 3vw, 30px);
+
 }
 
-a {
-    text-decoration: none;
-    outline: none;
-}
 
-button {
-    background-color: #D4BD79;
-    border: 2px solid whitesmoke;
-    padding: 1%;
-    margin: 3%;
-    padding-bottom: 0.1%;
-}
-
-p {
-    letter-spacing: 0.2em;
-    font-size:larger;
-    color: rgb(0, 0, 0);
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: 1000;
-}
-
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: whitesmoke;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #d4bd798a;
+  }
+  
+  button[type="submit"] {
+    background-color: #4D401C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4D401C;
+  }
+  
+  

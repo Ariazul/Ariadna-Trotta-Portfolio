@@ -3,12 +3,29 @@ p {
     justify-content: left right;
     text-align: left;
     justify-content: start end;
-    padding-right: 30%;
     color: #dfd4b3;
     font-size: clamp(20px, 4px, 40px);
+    font-size: 110%;
 }
 
 .link {
     padding-bottom: 10%;
-    margin-left: 0px;
+
 }
+
+.redes {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .link {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .redes {
+      text-align: left;
+    }
+  }
+

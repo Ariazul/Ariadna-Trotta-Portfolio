@@ -5,15 +5,25 @@ header {
 	font-size: clamp(20px, 4vw, 40px);
 }
 
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    padding-top: 20px;
+    color: #6674B3;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
 section {
     color: whitesmoke;
-    margin-right: 10%;
-    margin-left: 8.5%;
 }
 
 p {
-    font-size: 125%;
-    size: 200%;
+    font-size: 100%;
+    font-weight: 200%;
+    line-height: 1;
     letter-spacing: 0.1em;
 }
 
